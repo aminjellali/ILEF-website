@@ -2,115 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e69bd4f0-8b07-431d-b4df-84294cb0d454" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/faq.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pricing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/products.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/css/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/css/layout-rtl.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/css/layout-rtl.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/css/layout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/css/layout.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/1920x1080/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/1920x1080/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/1920x1080/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/397x300/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/397x300/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/397x300/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/397x400/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/640x380/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/770x860/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/770x860/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/770x860/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/800x400/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/800x400/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/970x647/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/970x647/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/970x647/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/970x970/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/clients/01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/clients/02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/clients/03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/clients/04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/clients/05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/clients/06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/logo-dark.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/img/widgets/gmap-pin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/gmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/gmap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/masonry.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/masonry.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/swiper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/swiper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/wow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/wow.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/layout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/layout.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/components/_blockquote.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/components/_button.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/gui/_pricing.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/gui/_promo-section.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/gui/_service.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/gui/_work.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/layout.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/layout/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/layout/_header.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/pages/_contact.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/plugins/_back-to-top.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/plugins/_bootstrap-components.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/plugins/_gmap.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/plugins/_masonry.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/plugins/_swiper.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/utils/_colors.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/sass/utils/_helpers.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/bootstrap/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery-migrate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.back-to-top.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.easing.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.parallax.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.smooth-scroll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/jquery.wow.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/masonry/imagesloaded.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/masonry/jquery.masonry.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/License.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/Readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/fonts/Simple-Line-Icons.dev.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/icons-lte-ie7.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/simple-line-icons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/simple-line-icons/simple-line-icons.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/swiper/css/swiper.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/swiper/css/swiper.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/swiper/js/swiper.jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/swiper/js/swiper.jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/swiper/js/swiper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/vendor/swiper/js/swiper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/work.html" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="493" column="23" lean-forward="false" selection-start-line="493" selection-start-column="23" selection-end-line="493" selection-end-column="23" />
+            <state relative-caret-position="182">
+              <caret line="400" column="66" lean-forward="false" selection-start-line="400" selection-start-column="66" selection-end-line="400" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -172,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
@@ -236,11 +127,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -331,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525907576955</updated>
-      <workItem from="1525907578638" duration="1076000" />
+      <workItem from="1525907578638" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1076000" />
+    <option name="totallyTimeSpent" value="1467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -413,14 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="493" column="23" lean-forward="false" selection-start-line="493" selection-start-column="23" selection-end-line="493" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -449,6 +332,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="325" column="31" lean-forward="false" selection-start-line="325" selection-start-column="31" selection-end-line="325" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="400" column="66" lean-forward="false" selection-start-line="400" selection-start-column="66" selection-end-line="400" selection-end-column="66" />
           <folding />
         </state>
       </provider>
