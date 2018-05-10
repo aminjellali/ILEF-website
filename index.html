@@ -34,8 +34,13 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico"/>
+    <!--social media-->
+    <link href="resources/css/index.css" rel="stylesheet" type="text/css"/>
+    <!--drop-->
+    <link href="resources/css/drop.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <!-- END HEAD -->
+
 
 <!-- BODY -->
 <body>
@@ -43,7 +48,7 @@
 <!--========== HEADER ==========-->
 <header class="header navbar-fixed-top">
   <!-- Navbar -->
-  <nav class="navbar" role="navigation">
+  <nav id="mainav" class="navbar" role="navigation">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="menu-container">
@@ -55,8 +60,8 @@
         <!-- Logo -->
         <div class="logo">
           <a class="logo-wrap" href="index.html">
-            <img class="logo-img logo-img-main" src="resources/img/logo.png" alt="Asentus Logo">
-            <img class="logo-img logo-img-active" src="resources/img/logo-dark.png" alt="Asentus Logo">
+            <img class="logo-img logo-img-main" src="resources/img/ilef.jpg" alt="Asentus Logo">
+            <img class="logo-img logo-img-active" src="resources/img/ilef.jpg" alt="Asentus Logo">
           </a>
         </div>
         <!-- End Logo -->
@@ -66,9 +71,60 @@
       <div class="collapse navbar-collapse nav-collapse">
         <div class="menu-container">
           <ul class="navbar-nav navbar-nav-right">
-            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Accueil</a></li>
+            <li class="nav-item" ><a class="nav-item-child nav-item-hover active" href="index.html">Accueil</a></li>
             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">à propos</a></li>
-            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Produits</a></li>
+            <li class="drop nav-item"><a class="nav-item-child nav-item-hover">Produits</a>
+                <ul>
+                    <li><a href=".#" class="drop">Fournitures de Bureau</a>
+                    <ul>
+                        <li><a href=".#"> Agrafage & perforation</a></li>
+                        <li><a href=".#"> Fournitures & instruments</a></li>
+                        <li><a href=".#"> Ecritures & corrections</a></li>
+                    </ul>
+                    </li>
+                    <li><a href=".#" class="drop">Classements & archivages</a>
+                    <ul>
+                        <li><a href=".#">Chemises & dossiers</a></li>
+                        <li><a href=".#">Protection documents & présentation</a></li>
+                        <li><a href=".#">Boites de classement & archivage</a></li>
+                        <li><a href=".#">Classeurs</a></li>
+                    </ul>
+                    </li>
+                    <li><a href=".#" class="drop">Papeterie</a>
+                        <ul>
+                            <li><a href=".#">Papiers</a></li>
+                            <li><a href=".#">Cahiers, blocs & notes</a></li>
+                            <li><a href=".#">Courrier & étiquetage</a></li>
+                            <li><a href=".#">Classeurs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=".#" class="drop">Equipements & Agencements</a>
+                        <ul>
+                            <li><a href=".#">Communication</a></li>
+                            <li><a href=".#">Agencements du bureau</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=".#" class="drop">Cartouches & Toners</a>
+                        <ul>
+                            <li><a href=".#">Types de consommables</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=".#" class="drop">Machines de bureau</a>
+                        <ul>
+                            <li><a href=".#">Destructeurs</a></li>
+                            <li><a href=".#">Spiraleuses</a></li>
+                            <li><a href=".#">Plastifieuses</a></li>
+                            <li><a href=".#">Calculatrices</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=".#">Périphériques informatiques</a>
+
+                    </li>
+                </ul>
+
+
+
+            </li>
             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">Services</a></li>
             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
           </ul>
@@ -424,26 +480,43 @@
         <div class="col-sm-2 sm-margin-b-50">
           <!-- List -->
           <ul class="list-unstyled footer-list">
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Accueil </a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">à Propos</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Nos Produits</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Nos Clients</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Contact</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" >CATÉGORIES</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="#">Fournitures de Bureau</a></li>
+              <li class="footer-list-item"><a class="footer-list-link" href="#">Classements & archivages</a></li>
+              <li class="footer-list-item"><a class="footer-list-link" href="#">Equipements & Agencements</a></li>
+              <li class="footer-list-item"><a class="footer-list-link" href="#">Machines de bureau</a></li>
+              <li class="footer-list-item"><a class="footer-list-link" href="#">Papeterie</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="#">Cartouches & Toners</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="#">Périphériques informatiques</a></li>
           </ul>
+
+
           <!-- End List -->
         </div>
         <div class="col-sm-4 sm-margin-b-30">
-          <!-- List -->
           <ul class="list-unstyled footer-list">
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
+            <li class="footer-list-item">À propos</li>
+            <li class="footer-list-item"> Ilef est specialisée dans la vente des matériels informatiques et bureautiques.
+              <br>
+                <br>
+                <br>
+                <br>
+                <br>
+              Adresse: 11, Rue de L'Hôpital-le bardo Tunis
+              <br>
+              Tel: +216 25 432 426
+              <br>
+              Email: lofa.balti@gmail.com</li>
+              <div class="wrap">
+                  <div class="facebook goof icon"><a href="https://www.facebook.com/Ilef-Service-266448450176157/" target="_blank"></a></div>
+              </div>
           </ul>
-          <!-- End List -->
         </div>
         <div class="col-sm-5 sm-margin-b-30">
-          <h2 class="color-white">envoyer nous votre avis </h2>
-          <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
+          <h2 class="color-white">Nous contacter</h2>
+          <input type="text" class="form-control footer-input margin-b-20" placeholder="Nom" required>
           <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-          <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
+
           <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
           <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Envoyer</button>
         </div>
@@ -456,11 +529,19 @@
   <!-- Copyright -->
   <div class="content container">
     <div class="row">
-      <div class="col-xs-6">
-        <img class="footer-logo" src="resources/img/logo.png" alt="Asentus Logo">
+      <div class="col-xs-6 text-left">
+
+        <p class="margin-b-0">
+          <img class="footer-logo" src="resources/img/ilef.jpg" alt="Asentus Logo" style="width: 180px">
+          © 2018 Ilef - Tous droits réservés .
+
+        </p>
+
       </div>
       <div class="col-xs-6 text-right">
-        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">ILEF</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+        <br>
+        <br>
+        <p class="margin-b-0"> développé par: <a class="color-base fweight-700" href="https://www.facebook.com/InceptumJuniorEntreprise/">Inceptum Junior Entreprise Espr/it</a></p>
       </div>
     </div>
     <!--// end row -->
