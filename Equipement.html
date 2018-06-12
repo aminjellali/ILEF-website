@@ -15,6 +15,9 @@
     <head>
         <meta charset="utf-8"/>
         <title>ILEF</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -24,7 +27,9 @@
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="resources/vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
         <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
         <!-- PAGE LEVEL PLUGIN STYLES -->
         <link href="resources/css/animate.css" rel="stylesheet">
         <link href="resources/vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
@@ -32,8 +37,16 @@
         <!-- THEME STYLES -->
         <link href="resources/css/layout.min.css" rel="stylesheet" type="text/css"/>
 
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+
+        <!--css footer-->
+        <link rel="stylesheet" href="resources/css/cool.css">
+        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <!--dropdown-->
+        <link rel="stylesheet" href="resources/css/dropdown.css">
     </head>
     <!-- END HEAD -->
 
@@ -55,8 +68,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="index.html">
-                                <img class="logo-img logo-img-main" src="resources/img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="resources/img/logo-dark.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="resources/img/ilef.jpg" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="resources/img/ilef.jpg" alt="Asentus Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -68,7 +81,17 @@
                             <ul class="navbar-nav navbar-nav-right">
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Accueil</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover " href="about.html">à propos</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="products.html">Produits</a></li>
+                                <li class="nav-item dropdown"><a class="nav-item-child nav-item-hover" href=".#">Produits</a>
+                                    <div class="dropdown-content">
+                                        <a href="FournitureBureau.html">Fournitures de Bureau</a>
+                                        <a href="Classement.html">Classements & archivages</a>
+                                        <a href="papeterie.html">Papeterie</a>
+                                        <a href="Equipement.html">Equipements & Agencements</a>
+                                        <a href="Cartouche.html">Cartouches & Toners</a>
+                                        <a href="Machine.html">Machines de bureau</a>
+                                        <a href="peripherique.html">Périphériques informatiques</a>
+                                    </div>
+                                </li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
                             </ul>
@@ -233,57 +256,84 @@
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <!-- Links -->
-            <div class="footer-seperator">
-                <div class="content-lg container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-50">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Accueil </a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">à Propos</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Nos Produits</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Nos Clients</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Contact</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Send Us A Note</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Envoyer</button>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-            <!-- End Links -->
-
-            <!-- Copyright -->
-            <div class="content container">
+        <div class="footer-top-area">
+            <div class="zigzag-bottom"></div>
+            <div class="container">
                 <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="resources/img/logo.png" alt="Asentus Logo">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-about-us">
+                            <h2><span>ILEF</span></h2>
+                            <br>
+                            <p>Ilef est specialisée dans la vente des matériels informatiques et bureautiques.
+                            </p>
+                            <br>
+                            <p>
+                                Adresse: 11, Rue de L'Hôpital-le bardo
+
+                                Tel: +216 25 432 426
+
+                                Email: lofa.balti@gmail.com
+                            </p>
+                            <div class="footer-social">
+                                <a href="https://www.facebook.com/Ilef-Service-266448450176157/" target="_blank"><i class="fa fa-facebook"></i></a>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-menu">
+                            <h2 class="footer-wid-title">Navigateur </h2>
+                            <ul>
+                                <li><a href="index.html">Accueil</a></li>
+                                <li><a href="about.html">à propos</a></li>
+                                <li><a href="#">Produits</a></li>
+                                <li><a href="faq.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-menu">
+                            <h2 class="footer-wid-title">CATÉGORIES</h2>
+                            <ul>
+                                <li><a href="FournitureBureau.html">Fournitures de Bureau</a></li>
+                                <li><a href="Classement.html">Classements & archivages</a></li>
+                                <li><a href="Equipement.html">Equipements & Agencements</a></li>
+                                <li><a href="Machine.html">Machines de bureau</a></li>
+                                <li><a href="papeterie.html">Papeterie</a></li>
+                                <li><a href="Cartouche.html">Cartouches & Toners</a></li>
+                                <li><a href="peripherique.html">Périphériques informatiques</a></li>
+
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-newsletter">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.8246393098952!2d10.155825415140129!3d36.79875467548115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3392b9d0c7f7%3A0x704dc2bf992f18d4!2sRue+de%2C+Cite+Ezzouhour!5e0!3m2!1sfr!2stn!4v1526078875434" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
                     </div>
                 </div>
-                <!--// end row -->
             </div>
-            <!-- End Copyright -->
-        </footer>
+        </div>
+        <!-- End footer top area -->
+
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright">
+                            <p>&copy; 2018 uCommerce. - Tous droits réservés . <a href="https://www.facebook.com/InceptumJuniorEntreprise/" target="_blank">Inceptum Junior Entreprise Espr/it</a></p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
         <!--========== END FOOTER ==========-->
 
         <!-- Back To Top -->
